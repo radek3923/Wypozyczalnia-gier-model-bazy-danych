@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="661EB3CF-7A54-0DC0-D7A0-44E267C45BFB" name="Pracownik">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>EEBF9EB7-9E83-362D-08AD-4011D7C26645</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_pracownika" id="98039281-C4F7-33B4-60B7-F0865A545DEB">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>27D7B959-D338-7458-7158-A519D1D8044D</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="67316331-9296-B9B3-A7B4-C208B4B78EC6">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>333FC2B9-7F11-B50A-77FE-973A0913C504</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="F321516E-E320-3D82-3913-43852761A5ED">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>1C3B5E66-359B-3C46-2AAC-B262CF1A9A27</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="2DE8A54C-250E-A3C3-86C6-36EB1BB692E8">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>671EEB4E-D9F1-DD3F-DDE4-EA2163025458</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_telefonu" id="A5C04EFB-F2D7-2143-2D4F-064E7334BD34">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>D3452E29-A538-A7C2-C02F-F4720873AF36</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_podpisania_umowy" id="31A83006-9B41-026A-35DC-42DBED3C057D">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>F53B0D66-C50F-43FD-EE18-21D13B2B710F</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Termin_wygasniecia_umowy" id="C0F66DC2-B53A-8C88-E313-ACFA473CC4EB">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>3230A8DD-A931-A348-C9BB-10DB4EADB521</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miesieczna_pensja" id="F802FF2E-85C1-CCC0-002B-268926F3592F">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>3D0BBA70-67BB-C785-B04D-933B64A81876</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CD7911A-DDD7-D1CF-58A6-C03C2F19D968" name="Pracownik_PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>28CD3D1D-5AA9-4ED9-20C4-0E7051261EC4</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98039281-C4F7-33B4-60B7-F0865A545DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

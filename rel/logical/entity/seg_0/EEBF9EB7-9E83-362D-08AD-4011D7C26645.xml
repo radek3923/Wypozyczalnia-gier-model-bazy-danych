@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEBF9EB7-9E83-362D-08AD-4011D7C26645" name="Pracownik">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:16:01 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_pracownika" id="27D7B959-D338-7458-7158-A519D1D8044D">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:44:27 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="333FC2B9-7F11-B50A-77FE-973A0913C504">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:46:04 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="1C3B5E66-359B-3C46-2AAC-B262CF1A9A27">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:46:16 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="671EEB4E-D9F1-DD3F-DDE4-EA2163025458">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:46:30 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_telefonu" id="D3452E29-A538-A7C2-C02F-F4720873AF36">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:46:45 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_podpisania_umowy" id="F53B0D66-C50F-43FD-EE18-21D13B2B710F">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:47:04 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termin_wygasniecia_umowy" id="3230A8DD-A931-A348-C9BB-10DB4EADB521">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:47:24 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miesieczna_pensja" id="3D0BBA70-67BB-C785-B04D-933B64A81876">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:47:39 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28CD3D1D-5AA9-4ED9-20C4-0E7051261EC4" name="Pracownik PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:46:42 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27D7B959-D338-7458-7158-A519D1D8044D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

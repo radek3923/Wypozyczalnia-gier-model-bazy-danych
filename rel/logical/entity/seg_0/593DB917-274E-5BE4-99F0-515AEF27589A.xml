@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="593DB917-274E-5BE4-99F0-515AEF27589A" name="Gra">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:16:07 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_plyty" id="E6E02B2B-2F42-E4F1-DBE7-C32689FB827F">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:50:57 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tytul" id="BCF6712D-BCBD-0974-8378-8E2BDD95508F">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:51:13 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PEGI" id="CEC8EA86-53C2-B452-A93C-61B540D1AF0A">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:59:54 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_platformy" id="965068DE-718B-2F75-35CC-8946CBE33521">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:52:50 UTC</createdTime>
+<generatorID>F8CD160E-A618-8E47-50C1-8E77153504BF</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<referedAttribute>B8371CD3-DDFB-A50C-9D04-09F27451A26A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_filii" id="32839A50-EEBA-7667-7D6C-851692718F8E">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:53:23 UTC</createdTime>
+<generatorID>41B13582-B338-E7A2-0657-EA23AA1A555B</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<referedAttribute>26401225-B840-055D-0A4B-24570B3A790F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Koszt_wypozyczenia" id="73C9A436-83D3-2758-1412-98627C0F3735">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:51:37 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22595B7C-C7BA-6C33-B2EF-7EE84738C4D8" name="Gra PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:51:11 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6E02B2B-2F42-E4F1-DBE7-C32689FB827F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

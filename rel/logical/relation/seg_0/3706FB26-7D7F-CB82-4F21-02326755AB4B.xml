@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wypozyczenie_Gra" directorySegmentName="seg_0" id="3706FB26-7D7F-CB82-4F21-02326755AB4B">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 11:05:25 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3445D9DC-5CD5-0BC5-FD17-FDDBB4A48AAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>593DB917-274E-5BE4-99F0-515AEF27589A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

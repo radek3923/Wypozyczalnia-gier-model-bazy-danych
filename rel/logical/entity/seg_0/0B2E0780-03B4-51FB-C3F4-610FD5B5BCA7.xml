@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B2E0780-03B4-51FB-C3F4-610FD5B5BCA7" name="Klient">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:15:34 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nr_klienta" id="DA3C1B9D-F999-9FE4-2CC6-1ECD3BFFC1F6">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:36:04 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="347994E3-976E-B550-64A4-EFFECB6DEAEF">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:37:13 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="E68F8B0F-C139-899D-C186-DDE2278EC31A">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:37:32 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zalozenia_karty" id="82536DAD-140A-AEB0-7773-BFD34D268A20">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:37:49 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="A5C64F0F-FC92-8607-AABE-876C44CB2001">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:38:22 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B818F233-B144-C61A-07AC-534C14259247" name="Klient PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 10:36:26 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA3C1B9D-F999-9FE4-2CC6-1ECD3BFFC1F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

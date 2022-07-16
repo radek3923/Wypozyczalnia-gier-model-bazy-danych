@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D340EDE7-AF09-D87B-0C16-CD57F5825091" name="Wydawca">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>D4162378-2E65-4136-8739-0DB5AAECCAF4</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_wydawcy" id="7A0C9BD6-396D-23C5-1159-07E3D494F3BE">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>CE62CE78-2493-F66A-9B1D-83E39F625D7F</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="2DD6E7A9-6752-BB88-3EF1-EC4E8F29653E">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>CB912E68-FFB8-240C-548B-226A127DA927</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie_zalozyciela" id="7F50D618-657D-7F52-5080-B1ECC1523FC2">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>C979C7C2-BF22-DC51-88D1-A01AEDB9E293</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko_zalozyciela" id="0B98A8C1-DB48-B081-1E56-7C4BB63C87FA">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>6B12D943-38DB-4DE3-5E9A-5B2EEBF660E3</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj_pochodzenia" id="9F096AC7-D7CA-E378-A168-A3DB822284D7">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>EE5F9CD0-BB9D-14FE-3D3C-F96E83816C86</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zalozenia" id="6001401E-2997-1A2A-9F6F-25BC6F8B707E">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>C80EDEDE-8787-0430-D977-D322BB31FD02</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="663231D8-9499-B8E7-899F-6D2A35F4EECE" name="Wydawca_PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>346B8E3B-485A-470B-2E0D-AA058026C628</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A0C9BD6-396D-23C5-1159-07E3D494F3BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

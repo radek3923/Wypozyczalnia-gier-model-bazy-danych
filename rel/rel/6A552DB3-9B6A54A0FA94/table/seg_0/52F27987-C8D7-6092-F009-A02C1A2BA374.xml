@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52F27987-C8D7-6092-F009-A02C1A2BA374" name="Klient">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>0B2E0780-03B4-51FB-C3F4-610FD5B5BCA7</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_klienta" id="82E5FEA0-C93C-8500-AD90-D4488E870B61">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>DA3C1B9D-F999-9FE4-2CC6-1ECD3BFFC1F6</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="C359DF91-BB19-50C9-ECAB-899D6D403E7D">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>347994E3-976E-B550-64A4-EFFECB6DEAEF</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="DCE766DB-7F55-A71A-13F1-6E7610410F3B">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>E68F8B0F-C139-899D-C186-DDE2278EC31A</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zalozenia_karty" id="57746F80-0732-92C4-8639-1F4CC0C06B03">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>82536DAD-140A-AEB0-7773-BFD34D268A20</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="FCF64695-9185-4D01-9884-B2B4215D57C8">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>A5C64F0F-FC92-8607-AABE-876C44CB2001</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="650242E7-00A2-4253-F948-64A4CB77FB07" name="Klient_PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>B818F233-B144-C61A-07AC-534C14259247</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82E5FEA0-C93C-8500-AD90-D4488E870B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

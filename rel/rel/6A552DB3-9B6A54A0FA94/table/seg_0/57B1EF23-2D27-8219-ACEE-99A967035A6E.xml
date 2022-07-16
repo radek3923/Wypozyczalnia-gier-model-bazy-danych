@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57B1EF23-2D27-8219-ACEE-99A967035A6E" name="Gra">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>593DB917-274E-5BE4-99F0-515AEF27589A</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_plyty" id="28E7324F-4A8D-F0CB-526C-C8A41D4A845D">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>E6E02B2B-2F42-E4F1-DBE7-C32689FB827F</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tytul" id="77B5E6EA-F595-0863-BFA6-C4F2E6E04267">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>BCF6712D-BCBD-0974-8378-8E2BDD95508F</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEGI" id="F7BAC393-C6E3-F4D2-A494-8D2CE27B6AE0">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>CEC8EA86-53C2-B452-A93C-61B540D1AF0A</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Platforma_Nr_platformy" id="808F55D9-B0E0-9BB5-1C56-27F39BD2AB89">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>965068DE-718B-2F75-35CC-8946CBE33521</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="271A05A4-97C2-9853-D456-574CEADCD8C7" referredColumn="3EA2E504-27F4-786D-21A5-7984910F7BA9"/>
+</associations>
+</Column>
+<Column name="Filia_Nr_filii" id="53334DC0-10A7-4711-8C16-FC9C42152BA6">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>32839A50-EEBA-7667-7D6C-851692718F8E</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40A1DB7F-69ED-39C7-6B92-66E7A7BAE173" referredColumn="1AEDD668-7A2A-0BA0-4D2A-C0F4454D1799"/>
+</associations>
+</Column>
+<Column name="Koszt_wypozyczenia" id="460C9BAE-B22A-F1BC-B7AD-EE9B8C7F28D9">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>73C9A436-83D3-2758-1412-98627C0F3735</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F036C379-87E9-09B1-6279-508C6FA63C4B" name="Gra_PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>22595B7C-C7BA-6C33-B2EF-7EE84738C4D8</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28E7324F-4A8D-F0CB-526C-C8A41D4A845D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6965A16-0313-7252-0791-F56DA257C924" name="Gra_Filia_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>41B13582-B338-E7A2-0657-EA23AA1A555B</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53334DC0-10A7-4711-8C16-FC9C42152BA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F5B6409-96F4-EA6F-E685-4C838F076E19" name="Gra_Platforma_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>F8CD160E-A618-8E47-50C1-8E77153504BF</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="808F55D9-B0E0-9BB5-1C56-27F39BD2AB89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gra_Wydawca" directorySegmentName="seg_0" id="BBD12B02-5AF7-328E-27CF-F90A9FDEC6D7">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 11:05:45 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<engineerTo>
+<item key="6A552DB3-73B8-D6E9-D3D9-9B6A54A0FA94" value="true"/>
+<item key="A3EA3F56-2CB8-5031-6E0F-38451892DBE1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>593DB917-274E-5BE4-99F0-515AEF27589A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4162378-2E65-4136-8739-0DB5AAECCAF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40A1DB7F-69ED-39C7-6B92-66E7A7BAE173" containerWithKeyObject="57B1EF23-2D27-8219-ACEE-99A967035A6E" localFKIndex="C6965A16-0313-7252-0791-F56DA257C924" name="Gra_Filia_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>41B13582-B338-E7A2-0657-EA23AA1A555B</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<referredTableLongName>Filia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DC2613E-79C2-28B9-0AE3-599A429D1777</referredTableID>
+<keyObject>58340C85-01E9-DADC-F46B-9818C660A238</keyObject>
+<referredKeyID>58340C85-01E9-DADC-F46B-9818C660A238</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_filii</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B3DD6D2-1FCD-6717-DAAE-2E08457518CB" name="Pakiet">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<ordsAlias>wypozyczenie_gra</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nr_wypozyczenia" id="4AF5748A-2D44-880A-3A91-D3670687EF8E">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5F5324D-BD25-F67D-8ABF-614D9E48E66E" referredColumn="371FB303-10CD-D5A7-11A7-7BEC6C3E0A70"/>
+</associations>
+</Column>
+<Column name="Nr_plyty" id="5D207950-CDDE-C25E-D64C-341DA28F9DA5">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE1EDB68-8225-622A-C3EA-D2DA2559B9ED" referredColumn="28E7324F-4A8D-F0CB-526C-C8A41D4A845D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DEA8894-3092-D1E0-8DC9-36E1746B480B" name="Wypozyczenie_Gra_PK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<ownerDesignName>rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AF5748A-2D44-880A-3A91-D3670687EF8E"/>
+<colUsage columnID="5D207950-CDDE-C25E-D64C-341DA28F9DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A34F9629-9C11-9A35-90DF-45DB5FE6ABEC" name="Wypozyczenie_Gra_Wypozyczenie_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>3706FB26-7D7F-CB82-4F21-02326755AB4B</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AF5748A-2D44-880A-3A91-D3670687EF8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC37CA53-7427-CBE2-4CBE-3398BAAED3B7" name="Wypozyczenie_Gra_Gra_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>3706FB26-7D7F-CB82-4F21-02326755AB4B</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D207950-CDDE-C25E-D64C-341DA28F9DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

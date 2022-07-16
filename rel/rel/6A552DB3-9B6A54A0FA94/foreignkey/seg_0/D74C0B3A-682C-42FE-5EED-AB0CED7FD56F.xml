@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D74C0B3A-682C-42FE-5EED-AB0CED7FD56F" containerWithKeyObject="97B01FB7-52D5-37F5-BC9C-E5D1F15ACDF1" localFKIndex="3B90D1C7-EAF3-4058-A075-364DB32E6309" name="Gra_Wydawca_Gra_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>BBD12B02-5AF7-328E-27CF-F90A9FDEC6D7</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<referredTableLongName>Gra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57B1EF23-2D27-8219-ACEE-99A967035A6E</referredTableID>
+<keyObject>F036C379-87E9-09B1-6279-508C6FA63C4B</keyObject>
+<referredKeyID>F036C379-87E9-09B1-6279-508C6FA63C4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_plyty</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

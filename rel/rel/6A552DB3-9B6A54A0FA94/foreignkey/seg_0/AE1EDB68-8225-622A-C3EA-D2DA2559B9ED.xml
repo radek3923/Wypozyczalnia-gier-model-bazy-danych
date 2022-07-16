@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE1EDB68-8225-622A-C3EA-D2DA2559B9ED" containerWithKeyObject="8B3DD6D2-1FCD-6717-DAAE-2E08457518CB" localFKIndex="BC37CA53-7427-CBE2-4CBE-3398BAAED3B7" name="Wypozyczenie_Gra_Gra_FK">
+<createdBy>Radek</createdBy>
+<createdTime>2022-02-15 15:41:58 UTC</createdTime>
+<generatorID>3706FB26-7D7F-CB82-4F21-02326755AB4B</generatorID>
+<ownerDesignName>rel</ownerDesignName>
+<referredTableLongName>Gra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57B1EF23-2D27-8219-ACEE-99A967035A6E</referredTableID>
+<keyObject>F036C379-87E9-09B1-6279-508C6FA63C4B</keyObject>
+<referredKeyID>F036C379-87E9-09B1-6279-508C6FA63C4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nr_plyty</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
